@@ -1,0 +1,185 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"softinputNavBar": "none",
+					"pullToRefresh": {
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉可以刷新"
+						},
+						"contentover": {
+							"caption": "释放立即刷新"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新..."
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/yan-xuan/yan-xuan",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "严选",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉可以刷新"
+						},
+						"contentover": {
+							"caption": "释放立即刷新"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新..."
+						}
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/my/my",
+            "style": {
+            	"navigationBarTitleText": "我的",
+				"app-plus":{
+					"titleNView": false
+				}
+            }
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "标的物详情"
+			}
+        }
+        ,{
+            "path" : "pages/notice-picture/notice-picture",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+        ,{
+            "path" : "pages/appointment-sample/appointment-sample",
+            "style" : {
+				"navigationBarTitleText": "预约看样"
+			}
+        }
+        ,{
+            "path" : "pages/my-bid/my-bid",
+            "style" : {
+				"navigationBarTitleText": "我的预约",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉可以刷新"
+						},
+						"contentover": {
+							"caption": "释放立即刷新"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新..."
+						}
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/message-notification/message-notification",
+            "style" : {
+				"navigationBarTitleText": "消息通知"
+			}
+        }
+        ,{
+            "path" : "pages/city-search/city-search",
+            "style" : {
+				"navigationBarTitleText": "选择城市",
+				"app-plus": {
+					"softinputNavBar": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/recommend-list/recommend-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/browsing-history/browsing-history",
+            "style" : {
+				"navigationBarTitleText": "浏览历史",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+				    "titleNView": {
+				        "buttons": [{
+				                "text": "清空",
+								"fontSize": "30upx",
+								"color": "#666666"
+				            }
+				        ]
+				    },
+					"pullToRefresh": {
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉可以刷新"
+						},
+						"contentover": {
+							"caption": "释放立即刷新"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新..."
+						}
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "能拍·严选",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#fff",
+		"backgroundColorTop": "#fff",
+		"backgroundColorBottom": "#fff"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#FFAF35",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/index.png",
+				"selectedIconPath": "static/image/index-active.png"
+			},
+			{
+				"pagePath": "pages/yan-xuan/yan-xuan",
+				"text": "严选",
+				"iconPath": "static/image/book.png",
+				"selectedIconPath": "static/image/book-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/image/uc.png",
+				"selectedIconPath": "static/image/uc-active.png"
+			}
+		]
+	}
+}

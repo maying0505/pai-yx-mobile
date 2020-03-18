@@ -1,0 +1,18 @@
+$font-normal: 'PingFang-SC-Regular, PingFang SC, STHeitiSC-Light, Helvetica-Light, arial, sans-serif';
+
+@mixin font-size($font-size: 16upx, $line-height: 1) {
+    font-size: $font-size;
+    line-height: $line-height;
+}
+@mixin flex($flex-direction: column) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: center;
+    align-items: center;
+}
+@mixin inline-block($vertical-align: top) {
+    display: inline-block;
+    vertical-align: $vertical-align;
+    font-size: 0;
+    line-height: 0;
+}
